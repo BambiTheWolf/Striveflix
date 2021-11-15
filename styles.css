@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+body {
+  background-color: #141414;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  font-weight: 500;
+}
+
+.navbar-brand img {
+  position: relative;
+  left: -15px;
+}
+
+.last-items .bi {
+  font-size: 1.3rem;
+}
+
+.last-items .btn {
+  color: white;
+}
+
+/* .last-items .btn:hover {
+  color: rgb(255, 122, 122);
+} */
+
+.last-items span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+.genres-btn {
+  border-width: 2px;
+  border-radius: 2px;
+}
+
+.header-icons span {
+  border: 2px solid #6c757d;
+  padding: 6.5px 8.5px;
+  border-radius: 2px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15px;
+}
+.carousel-control-prev {
+  left: -15px;
+}
+.carousel-control-next {
+  right: -15px;
+}
+
+footer {
+  padding: 7rem 0;
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  .header-icons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .header-icons span {
+    margin-top: 5px;
+  }
+}
