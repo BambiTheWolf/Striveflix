@@ -3,7 +3,8 @@ import "./App.css";
 import "./styles/styles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from './components/Homepage'
-import TVShows from "./components/TVShows";
+import TVShows from "./components/TVShows"
+import MovieDetails from './components/MovieDetails'
 
 const App = () => {
     return (
