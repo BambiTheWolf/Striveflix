@@ -3,7 +3,7 @@ import { Badge, ListGroup } from "react-bootstrap";
 const CommentsList = ({ comments }) =>
   comments.map((comment) => (
     <ListGroup key={comment._id}>
-      <ListGroup.Item>
+      <ListGroup.Item className="text-dark">
         <Badge pill variant="info" className="mr-3">
           {comment.rate}
         </Badge>
