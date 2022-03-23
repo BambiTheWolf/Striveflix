@@ -30,7 +30,7 @@ class CommentArea extends Component {
               {
                 headers: {
                   Authorization:
-                    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MThkMzg2YTVmMzRhZDAwMTUzOWYxOWEiLCJpYXQiOjE2MzcwOTk1MjAsImV4cCI6MTYzODMwOTEyMH0.HpX1SiL-O7Tt6CkHENFSGQbtHVRMPKWwiWnEIoMYTSI",
+                    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MThkMzg2YTVmMzRhZDAwMTUzOWYxOWEiLCJpYXQiOjE2NDgwNDI2OTIsImV4cCI6MTY0OTI1MjI5Mn0.GPyJyTwmqj4B9yTk7otvaOvjstZ9iEaOdjvdWfl-sh0",
                 },
               }
             );
@@ -63,7 +63,7 @@ class CommentArea extends Component {
         body: JSON.stringify(this.state.newComment),
         headers: {
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MThkMzg2YTVmMzRhZDAwMTUzOWYxOWEiLCJpYXQiOjE2MzcwOTk1MjAsImV4cCI6MTYzODMwOTEyMH0.HpX1SiL-O7Tt6CkHENFSGQbtHVRMPKWwiWnEIoMYTSI",
+            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MThkMzg2YTVmMzRhZDAwMTUzOWYxOWEiLCJpYXQiOjE2NDgwNDI2OTIsImV4cCI6MTY0OTI1MjI5Mn0.GPyJyTwmqj4B9yTk7otvaOvjstZ9iEaOdjvdWfl-sh0",
           "Content-Type": "application/json",
         },
       });
