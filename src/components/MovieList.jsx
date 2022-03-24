@@ -21,7 +21,7 @@ const MovieList = (props) => {
         }
       } else {
         setError(true);
-        console.log("an error occurred");
+        console.log(error);
       }
     } catch (error) {
       setError(true);
